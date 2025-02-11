@@ -1,0 +1,92 @@
+import { OptionType, IRoom } from "../types/types";
+
+export const viewOptions: OptionType[] = [
+  {value: 'any', label: 'Any'},
+  {value: 'beach', label: 'Beach'},
+  {value: 'mountain', label: 'Mountain'},
+  {value: 'city', label: 'City'},
+  {value: 'forest', label: 'Forest'},  
+]
+
+export const MOCK_ROOMS: IRoom[] = [
+  {
+    id: "1",
+    name: "Ocean View Suite",
+    bedrooms: 2,
+    price: 300,
+    view: "beach",
+    bookings: [],
+  },
+  {
+    id: "2",
+    name: "Mountain Hideaway",
+    bedrooms: 3,
+    price: 250,
+    view: "mountain",
+    bookings: [],
+  },
+  {
+    id: "3",
+    name: "Urban Studio",
+    bedrooms: 1,
+    price: 150,
+    view: "city",
+    bookings: [],
+  },
+  {
+    id: "4",
+    name: "Forest Retreat",
+    bedrooms: 2,
+    price: 220,
+    view: "forest",
+    bookings: [],
+  },
+  {
+    id: "5",
+    name: "Lake House",
+    bedrooms: 4,
+    price: 400,
+    view: "beach",
+    bookings: [],
+  },
+  {
+    id: "6",
+    name: "Beachfront Bungalow",
+    bedrooms: 3,
+    price: 350,
+    view: "beach",
+    bookings: [],
+  },
+  {
+    id: "7",
+    name: "Desert Villa",
+    bedrooms: 2,
+    price: 280,
+    view: "beach",
+    bookings: [],
+  },
+  {
+    id: "8",
+    name: "Country Cottage",
+    bedrooms: 3,
+    price: 200,
+    view: "city",
+    bookings: [],
+  },
+  {
+    id: "9",
+    name: "Downtown Penthouse",
+    bedrooms: 2,
+    price: 500,
+    view: "city",
+    bookings: [],
+  },
+  {
+    id: "10",
+    name: "Suburban Home",
+    bedrooms: 3,
+    price: 180,
+    view: "city",
+    bookings: [],
+  },
+];
